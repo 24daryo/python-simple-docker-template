@@ -1,14 +1,8 @@
-# valuation-analyzer
+## 2. Setup on local
 
-各社から連携される査定物件情報を元に、PriceHubble Valuation API を実行し、レポート作成するプログラム
+### 2-1. Setup venv (only for the first time).
 
-## 2. ローカルでの開発
-
-ローカルで開発する手順を示します
-
-### 2-1. venv 構築(初回のみ)
-
-ローカルの開発環境を作るため、以下のコードを実行します
+Please execute the following code to set up the local development environment.
 
 ```
 $ python -m venv venv
@@ -19,10 +13,16 @@ $ pip install -r requirements.txt
 
 ### 2-2. `docker-compose.yaml`の起動
 
-> 事前時 Docker のインストールが必要です
+> Please make sure to install Docker beforehand.
 
-コマンドラインで以下のように実行して環境へ入ります
+Execute the following command in the command line to enter the environment:
 
 ```shell
 $ bash start-docker.sh
+```
+
+To exit, please execute the following command:
+
+```shell
+$ exit
 ```
